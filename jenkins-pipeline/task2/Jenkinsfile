@@ -2,8 +2,8 @@ pipeline {
     agent {
         node {
                 label 'Linux-Slave'
-        }
-        }
+            }
+          }
     stages {
         stage('SVC') {
             steps {
@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'echo "Slave done'
+                sh 'echo "Slave done"'
             }
         }
     }
